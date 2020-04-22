@@ -414,7 +414,7 @@ footer .copyright {
   margin: 0;
 }
 
-.map figure {
+.map-container figure {
     width: 100%;
     height: 0;
     padding-bottom: 80%;
@@ -422,7 +422,7 @@ footer .copyright {
     position: relative;
 }
 
-.map iframe {
+.map-container iframe {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -713,6 +713,8 @@ footer .copyright {
     font-size: 1.5em;
   }
 
+
+
   /* ==========================================================================
        FAQ Page
        ========================================================================== */
@@ -798,6 +800,7 @@ footer .copyright {
 footer .footer-content {
   display: flex;
   justify-content: center;
+}
 
 
   footer h4 {
@@ -816,6 +819,8 @@ footer .footer-content {
      .contact-content h4 {
        font-size: 1.875em;
      }
+
+
 
   /* ==========================================================================
      FAQ Page
