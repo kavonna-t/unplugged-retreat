@@ -294,6 +294,11 @@ input[type=button] {
   padding: 20px;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -305,17 +310,6 @@ input[type=button] {
   margin: 0;
 }
 
-.campground-icon {}
-
-.bed-icon {}
-
-.utensils-icon {}
-
-.shoeprints-icon {}
-
-.smile-icon {}
-
-.wifi-icon {}
 
 /* Reviews */
 .reviews {
