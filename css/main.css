@@ -227,6 +227,11 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  text-align: center;
+}
+
+footer h4 {
+  text-align: center;
 }
 
 footer .social-icons {
@@ -610,8 +615,6 @@ input[type=button] {
   }
 
   /* Features */
-
-
   .features h2 {
     margin-bottom: 20px;
   }
@@ -674,7 +677,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.285;
+    line-height: 1.285em;
   }
 
   footer .social-icons {
@@ -808,6 +811,7 @@ input[type=button] {
     font-size: 1.875em;
   }
 
+}
   /*
   /* ==========================================================================
      About Page
