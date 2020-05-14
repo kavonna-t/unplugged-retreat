@@ -719,6 +719,7 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.5em;
+    margin-right: 15px;
   }
 
   /* ==========================================================================
@@ -810,111 +811,111 @@ input[type=button] {
   footer h4 {
     font-size: 1.875em;
   }
-
 }
-  /*
+
+/*
   /* ==========================================================================
      About Page
      ========================================================================== */
-  .mission h2,
-  .contact-section .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
-  }
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 95%;
+  font-size: 3em;
+}
 
-  .contact-content h4 {
-    font-size: 1.875em;
-  }
+.contact-content h4 {
+  font-size: 1.875em;
+}
 
-  .map-container figure {
-    padding-bottom: 37.5%;
-  }
+.map-container figure {
+  padding-bottom: 37.5%;
+}
 
-  /* ==========================================================================
+/* ==========================================================================
      FAQ Page
      ========================================================================== */
-  .faq h2 {
-    width: 100%;
-    font-size: 3em;
-  }
+.faq h2 {
+  width: 100%;
+  font-size: 3em;
+}
 
-  .faq h4,
-  .faq p {
-    font-size: 1.125em;
-    line-height: 1;
-  }
+.faq h4,
+.faq p {
+  font-size: 1.125em;
+  line-height: 1;
+}
 
-  /* ==========================================================================
+/* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-  @media print {
+@media print {
 
-    *,
-    *:before,
-    *:after {
-      background: transparent !important;
-      color: #000 !important;
-      /* Black prints faster */
-      box-shadow: none !important;
-      text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-      text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-      content: " ("attr(href) ")";
-    }
+  a[href]:after {
+    content: " ("attr(href) ")";
+  }
 
-    abbr[title]:after {
-      content: " ("attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-      content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre {
-      white-space: pre-wrap !important;
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
 
-    pre,
-    blockquote {
-      border: 1px solid #999;
-      page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    thead {
-      display: table-header-group;
-    }
-
-    tr,
-    img {
-      page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-      orphans: 3;
-      widows: 3;
-    }
-
-    h2,
-    h3 {
-      page-break-after: avoid;
-    }
+  thead {
+    display: table-header-group;
   }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
